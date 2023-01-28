@@ -1,6 +1,6 @@
 version: '3.3'
 services: 
     main:
-        image: ghcr.io/angelesorganization/tarea-7-dews:main
+        image: ghcr.io/angelesorganization/tarea-8-dews:main
         ports:
-            - 8002:8000
+            - 8003:8000
