@@ -38,7 +38,7 @@ class ControladorLibros extends Controller
     {
         $validated = $request->validate([
             'titulo' => 'required|max:50|alpha',
-            'f_publicacion' => 'nullable|date',
+            'f_publicacion' => 'nullable|date_format:d/m/Y',
             ]);
     
             Libros::create($request->all());
